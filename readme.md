@@ -1,5 +1,5 @@
 <div id="readme" class="Box-body readme blob js-code-block-container">
-<article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/MicrochipLogo.png" alt="MCHP" style="max-width:100%;"></a></p>
+<article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p><a href="https://www.microchip.com" rel="nofollow"><img src="Images/MicrochipLogo.png" alt="MCHP" style="max-width:100%;"></a></p>
 
 
 # PIC18F47Q10 Sending Data as a Master SPI Device (with Multiple Slaves)
