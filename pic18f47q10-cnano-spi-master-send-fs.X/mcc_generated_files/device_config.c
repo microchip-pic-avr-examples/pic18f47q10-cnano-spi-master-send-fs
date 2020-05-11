@@ -13,12 +13,12 @@
   @Description:
     This header file provides implementations for driver APIs for all modules selected in the GUI.
     Generation Information :
-        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.79.0
+        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.81.0
         Device            :  PIC18F47Q10
         Driver Version    :  2.00
     The generated drivers are tested against the following:
         Compiler          :  XC8 2.10 and above or later
-        MPLAB             :  MPLAB X 5.30
+        MPLAB             :  MPLAB X 5.35
 */
 
 /*
@@ -48,7 +48,7 @@
 
 // CONFIG1L
 #pragma config FEXTOSC = OFF    // External Oscillator mode Selection bits->Oscillator not enabled
-#pragma config RSTOSC = HFINTOSC_1MHZ    // Power-up default value for COSC bits->HFINTOSC with HFFRQ = 4 MHz and CDIV = 4:1
+#pragma config RSTOSC = HFINTOSC_64MHZ    // Power-up default value for COSC bits->HFINTOSC with HFFRQ = 64 MHz and CDIV = 1:1
 
 // CONFIG1H
 #pragma config CLKOUTEN = OFF    // Clock Out Enable bit->CLKOUT function is disabled

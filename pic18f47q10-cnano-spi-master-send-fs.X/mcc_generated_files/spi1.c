@@ -13,12 +13,12 @@
   @Description
     This header file provides implementations for driver APIs for SPI1.
     Generation Information :
-        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.79.0
+        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.81.0
         Device            :  PIC18F47Q10
         Driver Version    :  1.0.0
     The generated drivers are tested against the following:
         Compiler          :  XC8 2.10 and above or later
-        MPLAB             :  MPLAB X 5.30
+        MPLAB             :  MPLAB X 5.35
 */
 
 /*
@@ -57,7 +57,7 @@ typedef struct {
 //con1 == SSPxCON1, stat == SSPxSTAT, add == SSPxADD, operation == Master/Slave
 static const spi1_configuration_t spi1_configuration[] = {   
     { 0xa, 0x40, 0x1, 0 },
-    { 0x0, 0x40, 0x1, 0 }
+    { 0xa, 0x40, 0x1, 0 }
 };
 
 void SPI1_Initialize(void)
@@ -69,7 +69,7 @@ void SPI1_Initialize(void)
     RC5PPS    = 16;
     //SPI setup
     SSP1STAT = 0x40;
-    SSP1CON1 = 0x00;
+    SSP1CON1 = 0x0A;
     SSP1ADD = 0x01;
     TRISCbits.TRISC3 = 0;
     SSP1CON1bits.SSPEN = 0;
