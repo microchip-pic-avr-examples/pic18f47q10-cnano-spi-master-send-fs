@@ -7,7 +7,7 @@
         "version": "1.0.3",
         "displayName": "Sending Data as a Master SPI Device with Multiple Slaves",
         "projectName": "pic18f47q10-cnano-spi-master-send-fs",
-        "shortDescription": "In this demo, the SPI is configured as master and it is used to send data to two slave devices, one at a time.",
+        "shortDescription": "In this demo, the SPI is configured as master and it is used to send data to two slave devices, one at a time. The drivers for peripherals were generated using MCC (Foundation Services library).",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=5.30.0"
@@ -47,7 +47,6 @@
             "MSSP"
         ],
         "keywords": [
-            "SPI",
             "Data Transfer",
             "Serial Communication",
             "Send",
