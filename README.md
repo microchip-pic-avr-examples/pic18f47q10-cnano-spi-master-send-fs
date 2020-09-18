@@ -8,7 +8,7 @@ This repository contains an example of Foundation Services generated source code
 <br>In this demo, the SPI will be configured as master and it will be used to send data to two slave devices, one at a time.
 
 ## Related Documentation
-- [TB3265 - Getting Started with SPI using MSSP on PIC18](http://ww1.microchip.com/downloads/en/DeviceDoc/Getting-Started-With-SPI-Using-MSSP-on-PIC18-DS90003265A.pdf)
+- [TB3265 - Getting Started with SPI using MSSP on PIC18](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1002275)
 - [PIC18-Q10 Product Family Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family)
 - [PIC18F47Q10 Data Sheet](http://ww1.microchip.com/downloads/en/DeviceDoc/40002043D.pdf)
 - [PIC18F47Q10 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=pic18f47q10-cnano&type=&language=)

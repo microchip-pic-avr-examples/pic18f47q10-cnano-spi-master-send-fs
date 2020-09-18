@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-cnano-spi-master-send-fs",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "displayName": "Sending Data as a Master SPI Device with Multiple Slaves",
         "projectName": "pic18f47q10-cnano-spi-master-send-fs",
         "shortDescription": "In this demo, the SPI is configured as master and it is used to send data to two slave devices, one at a time. The drivers for peripherals were generated using MCC (Foundation Services library).",
